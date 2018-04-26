@@ -16,3 +16,9 @@ for (var i = 0; i < elements.length; i++) {
         }
     }
 }
+
+var images = document.getElementsByTagName('img');
+
+for (var i = 0; i < images.length; i++) {
+    images[i].src = 'https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/129/earth-globe-europe-africa_1f30d.png';
+}
